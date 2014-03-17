@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC55C17018D743DC00BB9F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16F18D743DC00BB9F85 /* Foundation.framework */; };
+		EC55C17518D743DC00BB9F85 /* BFDebugView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC55C17418D743DC00BB9F85 /* BFDebugView.h */; };
+		EC55C17718D743DC00BB9F85 /* BFDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C17618D743DC00BB9F85 /* BFDebugView.m */; };
+		EC55C17E18D743DC00BB9F85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C17D18D743DC00BB9F85 /* XCTest.framework */; };
+		EC55C17F18D743DC00BB9F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16F18D743DC00BB9F85 /* Foundation.framework */; };
+		EC55C18118D743DC00BB9F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C18018D743DC00BB9F85 /* UIKit.framework */; };
+		EC55C18418D743DC00BB9F85 /* libBFDebugView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */; };
+		EC55C18A18D743DC00BB9F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC55C18818D743DC00BB9F85 /* InfoPlist.strings */; };
+		EC55C18C18D743DC00BB9F85 /* BFDebugViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C18B18D743DC00BB9F85 /* BFDebugViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC55C18218D743DC00BB9F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC55C16418D743DC00BB9F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC55C16B18D743DC00BB9F85;
+			remoteInfo = BFDebugView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC55C16A18D743DC00BB9F85 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				EC55C17518D743DC00BB9F85 /* BFDebugView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFDebugView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55C16F18D743DC00BB9F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC55C17318D743DC00BB9F85 /* BFDebugView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFDebugView-Prefix.pch"; sourceTree = "<group>"; };
+		EC55C17418D743DC00BB9F85 /* BFDebugView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFDebugView.h; sourceTree = "<group>"; };
+		EC55C17618D743DC00BB9F85 /* BFDebugView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDebugView.m; sourceTree = "<group>"; };
+		EC55C17C18D743DC00BB9F85 /* BFDebugViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFDebugViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55C17D18D743DC00BB9F85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC55C18018D743DC00BB9F85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC55C18718D743DC00BB9F85 /* BFDebugViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFDebugViewTests-Info.plist"; sourceTree = "<group>"; };
+		EC55C18918D743DC00BB9F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC55C18B18D743DC00BB9F85 /* BFDebugViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDebugViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC55C16918D743DC00BB9F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55C17018D743DC00BB9F85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55C17918D743DC00BB9F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55C18418D743DC00BB9F85 /* libBFDebugView.a in Frameworks */,
+				EC55C17E18D743DC00BB9F85 /* XCTest.framework in Frameworks */,
+				EC55C18118D743DC00BB9F85 /* UIKit.framework in Frameworks */,
+				EC55C17F18D743DC00BB9F85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC55C16318D743DC00BB9F85 = {
+			isa = PBXGroup;
+			children = (
+				EC55C17118D743DC00BB9F85 /* BFDebugView */,
+				EC55C18518D743DC00BB9F85 /* BFDebugViewTests */,
+				EC55C16E18D743DC00BB9F85 /* Frameworks */,
+				EC55C16D18D743DC00BB9F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC55C16D18D743DC00BB9F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */,
+				EC55C17C18D743DC00BB9F85 /* BFDebugViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC55C16E18D743DC00BB9F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC55C16F18D743DC00BB9F85 /* Foundation.framework */,
+				EC55C17D18D743DC00BB9F85 /* XCTest.framework */,
+				EC55C18018D743DC00BB9F85 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC55C17118D743DC00BB9F85 /* BFDebugView */ = {
+			isa = PBXGroup;
+			children = (
+				EC55C17418D743DC00BB9F85 /* BFDebugView.h */,
+				EC55C17618D743DC00BB9F85 /* BFDebugView.m */,
+				EC55C17218D743DC00BB9F85 /* Supporting Files */,
+			);
+			path = BFDebugView;
+			sourceTree = "<group>";
+		};
+		EC55C17218D743DC00BB9F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC55C17318D743DC00BB9F85 /* BFDebugView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC55C18518D743DC00BB9F85 /* BFDebugViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC55C18B18D743DC00BB9F85 /* BFDebugViewTests.m */,
+				EC55C18618D743DC00BB9F85 /* Supporting Files */,
+			);
+			path = BFDebugViewTests;
+			sourceTree = "<group>";
+		};
+		EC55C18618D743DC00BB9F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC55C18718D743DC00BB9F85 /* BFDebugViewTests-Info.plist */,
+				EC55C18818D743DC00BB9F85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC55C16B18D743DC00BB9F85 /* BFDebugView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC55C18F18D743DC00BB9F85 /* Build configuration list for PBXNativeTarget "BFDebugView" */;
+			buildPhases = (
+				EC55C16818D743DC00BB9F85 /* Sources */,
+				EC55C16918D743DC00BB9F85 /* Frameworks */,
+				EC55C16A18D743DC00BB9F85 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFDebugView;
+			productName = BFDebugView;
+			productReference = EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC55C17B18D743DC00BB9F85 /* BFDebugViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC55C19218D743DC00BB9F85 /* Build configuration list for PBXNativeTarget "BFDebugViewTests" */;
+			buildPhases = (
+				EC55C17818D743DC00BB9F85 /* Sources */,
+				EC55C17918D743DC00BB9F85 /* Frameworks */,
+				EC55C17A18D743DC00BB9F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC55C18318D743DC00BB9F85 /* PBXTargetDependency */,
+			);
+			name = BFDebugViewTests;
+			productName = BFDebugViewTests;
+			productReference = EC55C17C18D743DC00BB9F85 /* BFDebugViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC55C16418D743DC00BB9F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Balazs Faludi";
+			};
+			buildConfigurationList = EC55C16718D743DC00BB9F85 /* Build configuration list for PBXProject "BFDebugView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC55C16318D743DC00BB9F85;
+			productRefGroup = EC55C16D18D743DC00BB9F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC55C16B18D743DC00BB9F85 /* BFDebugView */,
+				EC55C17B18D743DC00BB9F85 /* BFDebugViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC55C17A18D743DC00BB9F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55C18A18D743DC00BB9F85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC55C16818D743DC00BB9F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55C17718D743DC00BB9F85 /* BFDebugView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55C17818D743DC00BB9F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC55C18C18D743DC00BB9F85 /* BFDebugViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC55C18318D743DC00BB9F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC55C16B18D743DC00BB9F85 /* BFDebugView */;
+			targetProxy = EC55C18218D743DC00BB9F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC55C18818D743DC00BB9F85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC55C18918D743DC00BB9F85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC55C18D18D743DC00BB9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC55C18E18D743DC00BB9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC55C19018D743DC00BB9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BFDebugView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFDebugView/BFDebugView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC55C19118D743DC00BB9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BFDebugView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFDebugView/BFDebugView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC55C19318D743DC00BB9F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFDebugView/BFDebugView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BFDebugViewTests/BFDebugViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC55C19418D743DC00BB9F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BFDebugView/BFDebugView-Prefix.pch";
+				INFOPLIST_FILE = "BFDebugViewTests/BFDebugViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC55C16718D743DC00BB9F85 /* Build configuration list for PBXProject "BFDebugView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55C18D18D743DC00BB9F85 /* Debug */,
+				EC55C18E18D743DC00BB9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC55C18F18D743DC00BB9F85 /* Build configuration list for PBXNativeTarget "BFDebugView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55C19018D743DC00BB9F85 /* Debug */,
+				EC55C19118D743DC00BB9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC55C19218D743DC00BB9F85 /* Build configuration list for PBXNativeTarget "BFDebugViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC55C19318D743DC00BB9F85 /* Debug */,
+				EC55C19418D743DC00BB9F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC55C16418D743DC00BB9F85 /* Project object */;
+}
