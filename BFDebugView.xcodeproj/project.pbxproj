@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EC55C17018D743DC00BB9F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16F18D743DC00BB9F85 /* Foundation.framework */; };
-		EC55C17518D743DC00BB9F85 /* BFDebugView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EC55C17418D743DC00BB9F85 /* BFDebugView.h */; };
-		EC55C17718D743DC00BB9F85 /* BFDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C17618D743DC00BB9F85 /* BFDebugView.m */; };
-		EC55C17E18D743DC00BB9F85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C17D18D743DC00BB9F85 /* XCTest.framework */; };
-		EC55C17F18D743DC00BB9F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16F18D743DC00BB9F85 /* Foundation.framework */; };
-		EC55C18118D743DC00BB9F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C18018D743DC00BB9F85 /* UIKit.framework */; };
-		EC55C18418D743DC00BB9F85 /* libBFDebugView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */; };
-		EC55C18A18D743DC00BB9F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC55C18818D743DC00BB9F85 /* InfoPlist.strings */; };
-		EC55C18C18D743DC00BB9F85 /* BFDebugViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C18B18D743DC00BB9F85 /* BFDebugViewTests.m */; };
+		EC55C20618D744C700BB9F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16F18D743DC00BB9F85 /* Foundation.framework */; };
+		EC55C20718D744C700BB9F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C19B18D7443A00BB9F85 /* CoreGraphics.framework */; };
+		EC55C20818D744C700BB9F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C18018D743DC00BB9F85 /* UIKit.framework */; };
+		EC55C20E18D744C700BB9F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC55C20C18D744C700BB9F85 /* InfoPlist.strings */; };
+		EC55C21018D744C700BB9F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C20F18D744C700BB9F85 /* main.m */; };
+		EC55C21418D744C700BB9F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C21318D744C700BB9F85 /* AppDelegate.m */; };
+		EC55C21718D744C700BB9F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC55C21518D744C700BB9F85 /* Main.storyboard */; };
+		EC55C21A18D744C700BB9F85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C21918D744C700BB9F85 /* ViewController.m */; };
+		EC55C21C18D744C700BB9F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55C21B18D744C700BB9F85 /* Images.xcassets */; };
+		EC55C23718D7451800BB9F85 /* libBFDebugView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */; };
+		EC55C23D18D7455600BB9F85 /* BFDebugRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C23C18D7455600BB9F85 /* BFDebugRenderer.m */; };
+		EC55C24018D7458000BB9F85 /* BFDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55C23F18D7458000BB9F85 /* BFDebugView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC55C18218D743DC00BB9F85 /* PBXContainerItemProxy */ = {
+		EC55C23518D7451500BB9F85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC55C16418D743DC00BB9F85 /* Project object */;
 			proxyType = 1;
@@ -35,7 +39,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				EC55C17518D743DC00BB9F85 /* BFDebugView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +48,24 @@
 		EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFDebugView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC55C16F18D743DC00BB9F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EC55C17318D743DC00BB9F85 /* BFDebugView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFDebugView-Prefix.pch"; sourceTree = "<group>"; };
-		EC55C17418D743DC00BB9F85 /* BFDebugView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFDebugView.h; sourceTree = "<group>"; };
-		EC55C17618D743DC00BB9F85 /* BFDebugView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDebugView.m; sourceTree = "<group>"; };
-		EC55C17C18D743DC00BB9F85 /* BFDebugViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFDebugViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC55C17D18D743DC00BB9F85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EC55C18018D743DC00BB9F85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EC55C18718D743DC00BB9F85 /* BFDebugViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFDebugViewTests-Info.plist"; sourceTree = "<group>"; };
-		EC55C18918D743DC00BB9F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC55C18B18D743DC00BB9F85 /* BFDebugViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDebugViewTests.m; sourceTree = "<group>"; };
+		EC55C19B18D7443A00BB9F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC55C20518D744C600BB9F85 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55C20B18D744C700BB9F85 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		EC55C20D18D744C700BB9F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC55C20F18D744C700BB9F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC55C21118D744C700BB9F85 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		EC55C21218D744C700BB9F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC55C21318D744C700BB9F85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC55C21618D744C700BB9F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC55C21818D744C700BB9F85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC55C21918D744C700BB9F85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC55C21B18D744C700BB9F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC55C23B18D7455600BB9F85 /* BFDebugRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDebugRenderer.h; sourceTree = "<group>"; };
+		EC55C23C18D7455600BB9F85 /* BFDebugRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDebugRenderer.m; sourceTree = "<group>"; };
+		EC55C23E18D7458000BB9F85 /* BFDebugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDebugView.h; sourceTree = "<group>"; };
+		EC55C23F18D7458000BB9F85 /* BFDebugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDebugView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +77,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC55C17918D743DC00BB9F85 /* Frameworks */ = {
+		EC55C20218D744C600BB9F85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC55C18418D743DC00BB9F85 /* libBFDebugView.a in Frameworks */,
-				EC55C17E18D743DC00BB9F85 /* XCTest.framework in Frameworks */,
-				EC55C18118D743DC00BB9F85 /* UIKit.framework in Frameworks */,
-				EC55C17F18D743DC00BB9F85 /* Foundation.framework in Frameworks */,
+				EC55C23718D7451800BB9F85 /* libBFDebugView.a in Frameworks */,
+				EC55C20718D744C700BB9F85 /* CoreGraphics.framework in Frameworks */,
+				EC55C20818D744C700BB9F85 /* UIKit.framework in Frameworks */,
+				EC55C20618D744C700BB9F85 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				EC55C17118D743DC00BB9F85 /* BFDebugView */,
-				EC55C18518D743DC00BB9F85 /* BFDebugViewTests */,
+				EC55C20918D744C700BB9F85 /* Demo */,
 				EC55C16E18D743DC00BB9F85 /* Frameworks */,
 				EC55C16D18D743DC00BB9F85 /* Products */,
 			);
@@ -92,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */,
-				EC55C17C18D743DC00BB9F85 /* BFDebugViewTests.xctest */,
+				EC55C20518D744C600BB9F85 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +116,7 @@
 				EC55C16F18D743DC00BB9F85 /* Foundation.framework */,
 				EC55C17D18D743DC00BB9F85 /* XCTest.framework */,
 				EC55C18018D743DC00BB9F85 /* UIKit.framework */,
+				EC55C19B18D7443A00BB9F85 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +124,10 @@
 		EC55C17118D743DC00BB9F85 /* BFDebugView */ = {
 			isa = PBXGroup;
 			children = (
-				EC55C17418D743DC00BB9F85 /* BFDebugView.h */,
-				EC55C17618D743DC00BB9F85 /* BFDebugView.m */,
+				EC55C23E18D7458000BB9F85 /* BFDebugView.h */,
+				EC55C23F18D7458000BB9F85 /* BFDebugView.m */,
+				EC55C23B18D7455600BB9F85 /* BFDebugRenderer.h */,
+				EC55C23C18D7455600BB9F85 /* BFDebugRenderer.m */,
 				EC55C17218D743DC00BB9F85 /* Supporting Files */,
 			);
 			path = BFDebugView;
@@ -125,20 +141,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC55C18518D743DC00BB9F85 /* BFDebugViewTests */ = {
+		EC55C20918D744C700BB9F85 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				EC55C18B18D743DC00BB9F85 /* BFDebugViewTests.m */,
-				EC55C18618D743DC00BB9F85 /* Supporting Files */,
+				EC55C21218D744C700BB9F85 /* AppDelegate.h */,
+				EC55C21318D744C700BB9F85 /* AppDelegate.m */,
+				EC55C21518D744C700BB9F85 /* Main.storyboard */,
+				EC55C21818D744C700BB9F85 /* ViewController.h */,
+				EC55C21918D744C700BB9F85 /* ViewController.m */,
+				EC55C21B18D744C700BB9F85 /* Images.xcassets */,
+				EC55C20A18D744C700BB9F85 /* Supporting Files */,
 			);
-			path = BFDebugViewTests;
+			path = Demo;
 			sourceTree = "<group>";
 		};
-		EC55C18618D743DC00BB9F85 /* Supporting Files */ = {
+		EC55C20A18D744C700BB9F85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC55C18718D743DC00BB9F85 /* BFDebugViewTests-Info.plist */,
-				EC55C18818D743DC00BB9F85 /* InfoPlist.strings */,
+				EC55C20B18D744C700BB9F85 /* Demo-Info.plist */,
+				EC55C20C18D744C700BB9F85 /* InfoPlist.strings */,
+				EC55C20F18D744C700BB9F85 /* main.m */,
+				EC55C21118D744C700BB9F85 /* Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,23 +186,23 @@
 			productReference = EC55C16C18D743DC00BB9F85 /* libBFDebugView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EC55C17B18D743DC00BB9F85 /* BFDebugViewTests */ = {
+		EC55C20418D744C600BB9F85 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC55C19218D743DC00BB9F85 /* Build configuration list for PBXNativeTarget "BFDebugViewTests" */;
+			buildConfigurationList = EC55C22F18D744C700BB9F85 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				EC55C17818D743DC00BB9F85 /* Sources */,
-				EC55C17918D743DC00BB9F85 /* Frameworks */,
-				EC55C17A18D743DC00BB9F85 /* Resources */,
+				EC55C20118D744C600BB9F85 /* Sources */,
+				EC55C20218D744C600BB9F85 /* Frameworks */,
+				EC55C20318D744C600BB9F85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC55C18318D743DC00BB9F85 /* PBXTargetDependency */,
+				EC55C23618D7451500BB9F85 /* PBXTargetDependency */,
 			);
-			name = BFDebugViewTests;
-			productName = BFDebugViewTests;
-			productReference = EC55C17C18D743DC00BB9F85 /* BFDebugViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = Demo;
+			productName = Demo;
+			productReference = EC55C20518D744C600BB9F85 /* Demo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,6 +219,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = EC55C16318D743DC00BB9F85;
 			productRefGroup = EC55C16D18D743DC00BB9F85 /* Products */;
@@ -203,17 +227,19 @@
 			projectRoot = "";
 			targets = (
 				EC55C16B18D743DC00BB9F85 /* BFDebugView */,
-				EC55C17B18D743DC00BB9F85 /* BFDebugViewTests */,
+				EC55C20418D744C600BB9F85 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC55C17A18D743DC00BB9F85 /* Resources */ = {
+		EC55C20318D744C600BB9F85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC55C18A18D743DC00BB9F85 /* InfoPlist.strings in Resources */,
+				EC55C21C18D744C700BB9F85 /* Images.xcassets in Resources */,
+				EC55C20E18D744C700BB9F85 /* InfoPlist.strings in Resources */,
+				EC55C21718D744C700BB9F85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,35 +250,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC55C17718D743DC00BB9F85 /* BFDebugView.m in Sources */,
+				EC55C23D18D7455600BB9F85 /* BFDebugRenderer.m in Sources */,
+				EC55C24018D7458000BB9F85 /* BFDebugView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC55C17818D743DC00BB9F85 /* Sources */ = {
+		EC55C20118D744C600BB9F85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC55C18C18D743DC00BB9F85 /* BFDebugViewTests.m in Sources */,
+				EC55C21A18D744C700BB9F85 /* ViewController.m in Sources */,
+				EC55C21418D744C700BB9F85 /* AppDelegate.m in Sources */,
+				EC55C21018D744C700BB9F85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC55C18318D743DC00BB9F85 /* PBXTargetDependency */ = {
+		EC55C23618D7451500BB9F85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC55C16B18D743DC00BB9F85 /* BFDebugView */;
-			targetProxy = EC55C18218D743DC00BB9F85 /* PBXContainerItemProxy */;
+			targetProxy = EC55C23518D7451500BB9F85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC55C18818D743DC00BB9F85 /* InfoPlist.strings */ = {
+		EC55C20C18D744C700BB9F85 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC55C18918D743DC00BB9F85 /* en */,
+				EC55C20D18D744C700BB9F85 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC55C21518D744C700BB9F85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC55C21618D744C700BB9F85 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -320,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -350,39 +387,51 @@
 			};
 			name = Release;
 		};
-		EC55C19318D743DC00BB9F85 /* Debug */ = {
+		EC55C23018D744C700BB9F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFDebugView/BFDebugView-Prefix.pch";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BFDebugViewTests/BFDebugViewTests-Info.plist";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		EC55C19418D743DC00BB9F85 /* Release */ = {
+		EC55C23118D744C700BB9F85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFDebugView/BFDebugView-Prefix.pch";
-				INFOPLIST_FILE = "BFDebugViewTests/BFDebugViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -406,11 +455,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EC55C19218D743DC00BB9F85 /* Build configuration list for PBXNativeTarget "BFDebugViewTests" */ = {
+		EC55C22F18D744C700BB9F85 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC55C19318D743DC00BB9F85 /* Debug */,
-				EC55C19418D743DC00BB9F85 /* Release */,
+				EC55C23018D744C700BB9F85 /* Debug */,
+				EC55C23118D744C700BB9F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
